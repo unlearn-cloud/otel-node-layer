@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Opentelemetry layer for Nodejs Lambda functions",
+  "main": "wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Opentelemetry",
+    "Nodejs",
+    "AWS",
+    "Lambda",
+    "Dynatrace"
+  ],
+  "author": "Safia Gourani",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.1.0",
+    "@opentelemetry/instrumentation": "^0.33.0",
+    "@opentelemetry/instrumentation-pg": "^0.31.1"
+  }
+}
